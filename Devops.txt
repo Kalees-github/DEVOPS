@@ -1,0 +1,62 @@
+ DevOps:
+
+	The name DevOps comes from Developer and Operations.DevOps bridges
+	the communication gap between the software developers and the It operation
+	teams.
+
+		 	Developers  →	 DevOps    ← Operations
+
+
+	DevOps is a set of practices that combines software development (Dev)
+	and IT operations (Ops). It aims to shorten the systems development life
+	cycle and provide continuous delivery with high software quality.
+
+
+DevOps Lifecycle:
+
+1.Plan:
+	
+	This phase focuses on understanding the business needs and gathering feedback from end-users. 
+	Teams create a plan that aligns the project with business goals and ensures the right results 
+	are delivered.
+
+2.Code:
+
+	In this phase, developers write the actual code for the software. 
+	Tools like Git help manage the code, making sure that the code is well-organized and free from 
+	security issues or bad coding practices.
+
+3.Build:
+
+	Once the code is written, it is submitted to a central system using tools like Jenkins.This 
+	step ensures the code is compiled, and all components are integrated together smoothly.
+
+4.Test:
+
+	The software is then tested to ensure it works properly. This includes different types of tests 
+	like security, performance, and user acceptance. Tools like Selenium are used to automate these 
+	tests and verify the software’s integrity.
+
+5.Release:
+
+	After testing, the software is ready to be released to production. The DevOps team ensures that 
+	all checks are passed and then sends the latest version to the production environment.
+
+6.Deploy:
+
+	Using Infrastructure-as-Code (IaC) tools like Terraform, the necessary infrastructure (servers,
+	networks, etc.) is automatically created. Once the infrastructure is set up, the code is deployed 
+	to various environments in an automated and repeatable way.
+
+7.Operate:
+
+	Once deployed, the software is available for users. Tools like Chef help manage the configuration
+	and ongoing deployment of the system to ensure it operates smoothly.
+
+8.Monitor:
+
+	This phase involves observing how the software is performing in the real world. Data about user 
+	behaviour and application performance is collected to identify any issues or bottlenecks. By 
+	monitoring the system, the team can quickly spot and fix problems that may affect performance.
+
+

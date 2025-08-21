@@ -1,0 +1,46 @@
+Version Control:
+
+	Version Control is a system that helps developers track changes in code, 
+	collaborate efficiently, and manage different versions of a project. 
+	It keeps a history of modifications, enables rollback to previous versions, 
+	and ensures that multiple developers can work together without conflicts.
+
+For example:
+
+	If the first version of a file is saved as A1, then the next updated 
+	versions may be saved as A2, A3, and so on, where each version represents a 
+	new state of the file.
+
+
+Types of Version Control Systems:
+
+1. Local Version Control Systems
+
+	A Local Version Control System operates entirely on your personal machine 
+	without any connection to a remote repository. All changes and version 
+	history are stored in a local database on your computer.
+
+	Example: If you save a file as A1 on your computer and later update it to 
+	A2, the old version is stored locally, but no one else can access it.
+
+2. Centralized Version Control Systems
+
+	In a Centralized Version Control System, all the files and their version 
+	history are stored in a single central server. This server acts as the main 
+	source for the entire project. Developers connect to this server to access 
+	or modify files but they do not maintain a full local copy of the project, 
+	instead they work with the most recent versions pulled from the server.
+
+	Example: Developers connect to a central repository. One developer saves a 
+	file as A1, another updates it to A2, and both versions are stored in the 
+	central server.
+
+3. Distributed Version Control Systems
+
+	Distributed version control systems contain multiple repositories. Each user 
+	has their own repository and working copy. Just committing your changes will 
+	not give others access to your changes. This is because commit will reflect 
+	those changes in your local repository and you need to push them in order to 
+	make them visible on the central repository.
+
+	Example: Using Git, every developer has A1, A2, A3 versions locally.
