@@ -1,0 +1,42 @@
+Cs of DevOps :
+
+1.Continuous Development
+
+	Continuous Development involves the iterative and incremental approach to software creation, where 
+	development teams plan, code, and prepare software features in small, manageable units. This 
+	methodology enables rapid feedback, early detection of issues, and swift delivery of value to end-users. 
+
+2.Continuous Integration
+
+	Continuous Integration (CI) in DevOps ensures that code changes made by developers are automatically 
+	built, tested, and integrated into the main codebase. 
+	
+	*Source Code Management
+	*Build Process
+	*Code Quality Check
+
+3.Continuous Testing
+
+	Continuous Testing means testing the code automatically every time there is a change. This helps catch 
+	bugs early before the app goes live. With DevOps and Agile methods, companies can use tools like Selenium, 
+	to test their applications automatically. These tools run tests faster and smarter than manual testing.
+	Using a tool like Jenkins, we can set up the entire testing process to run automatically after every code 
+	change. This saves time and reduces human errors.
+	
+4.Continuous Deployment/ Continuous Delivery
+
+	Continuous Deployment is the process of automatically deploying an application into 
+	the production environment when it has completed testing and the build stages.
+
+
+5. Continuous Monitoring
+
+	Applications and infrastructure are monitored in real-time for performance, errors, and security issues.
+
+6. Continuous Feedback
+
+	Teams get feedback from users, monitoring tools, and automated tests to improve software quickly.
+
+7.Continuous Operations 
+
+	Ensures that systems are always running smoothly with minimal downtime.
